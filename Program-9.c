@@ -1,3 +1,4 @@
+
 // To print the value of a variable using pointers
 
 // Input:5                                                                                 
@@ -7,7 +8,9 @@
 #include <stdio.h>
 int main()
 {
-  int var,*ptr;
+  int var;
+  int *ptr;
+  ptr = &var;
 //Initialize the pointer variable
   printf("Enter the value:");
   scanf("%d",&var);
